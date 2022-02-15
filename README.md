@@ -159,7 +159,7 @@ proc arima data=WORK.ENERGYDATA plots
 	run;
 quit;
 
-# References
+# Data References
 Carlin, W. (2022). Solar power generation [energy data explorer]. https://ourworldindata.org/explorers/energy? 
 Faier, R. (2021 Nov). Presentation: solaredge technologies. https://investors.solaredge.com/static-files/c0b9b9ea-d7d0-4cfa-8018-b979b63dedfaReferences 
 Matijssen, M. (2020). Powering the future of energy: sustainability report 2020. https://www.solaredge.com/sites/default/files/annual_sustainability_report.pdf 
