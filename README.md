@@ -1,4 +1,4 @@
-# SolarEdge_enterprise_perform_mgmt Analysis & Planning
+# SolarEdge Analysis & Planning for Enterprise Performance Management
 The project creates the framework and business strategy for a renewable energy manufacturer and distributor, SolarEdge Technologies. I describe the renewables industry, company products, and growth, addressing a hypothetical business problem. Knowing that business intelligence aligns with and merges into organizational strategy, I conceptualize a framework and compose several business questions meant to achieve enterprise objectives. Using public reported data compiled from corporate reports, I answer the questions with statistic applications from SAS web-based environment. After discussing results and industry-relevant considerations, I endorse ways to make further research and analysis.
 
 # SolarEdge strategic goals
