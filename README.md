@@ -30,7 +30,7 @@ run;
 Below see the SAS code for running the 5 business questions.
 
 # 1. Is SolarEdge beating the market growth for inverters shipped?
-* Transpose to a long format;
+* Transpose to a long format. Note _name_ is coded as 'underscore name underscore';
 
 proc transpose data=energydata out=long;
 by Year;
@@ -43,7 +43,7 @@ proc sort data=long;
 by _name_ Year;
 run;
 
-* Calculate lag and remove lag calculation column. Note _name_ is coded 'underscore Name underscore';
+* Calculate lag and remove lag calculation column;
 
 data segrowth (DROP=prev_val);
 set long;
