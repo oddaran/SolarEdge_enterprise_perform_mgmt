@@ -9,11 +9,11 @@ Be the preferred partner for industry installers, integrators, and market partic
 Maintain social responsibility through international energy and electricity standards.
 
 # Viewing and summarizing data set energydata
-* Upload csv to SAS, with header columns appropriately, format year as 4 digits, converting numeric to dollars.
+* Upload csv to 'v94' user folder in SAS, with header columns appropriately, format year as 4 digits, converting numeric to dollars.
 * Replace all bullets with asterisks, showing as comments. Ensure all lines followed by semicolon ';'
 
 data energydata;
-	infile '/home/u43067822/sasuser.v94/energydata_solaredge10k.csv' dlm=',' firstobs=2;
+	infile '/home/uXXXXXXXX/sasuser.v94/energydata_solaredge10k.csv' dlm=',' firstobs=2;
 	input Year World_TW US_TW Megawatt_shipped Inverters Optimizers EPS Revenue RD Asset_financed Gross_profit;
 
 proc datasets library=work nolist;
