@@ -43,7 +43,7 @@ proc sort data=long;
 by _name_ Year;
 run;
 
-* Calculate lag and remove lag calculation column;
+* Calculate lag and remove lag calculation column. Note _name_ is coded 'underscore Name underscore';
 
 data segrowth (DROP=prev_val);
 set long;
